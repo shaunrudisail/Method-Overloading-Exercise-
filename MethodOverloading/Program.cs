@@ -33,7 +33,9 @@
         
         static void Main(string[] args)
         {
-            Console.WriteLine(Add(1, 1, false));
+            Console.WriteLine(Add(1, 1));
+            Console.WriteLine(Add(9.0m, 9.0m));
+            Console.WriteLine(Add(4, 8, true));
         }
     }
 }
